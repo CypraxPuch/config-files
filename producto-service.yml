@@ -14,5 +14,3 @@ eureka:
       serviceUrl:
          defaultZone: http://localhost:1111/eureka
 
-zuul:
-   servletPath: ${spring.application.name}
