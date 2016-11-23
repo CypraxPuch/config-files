@@ -1,0 +1,16 @@
+server:
+   port: ${PORT:9999}
+
+spring:
+   cloud:
+      stream:
+         bindings:
+            input: productoes
+
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:1111/eureka
+
+zuul:
+   servletPath: ${spring.application.name}
