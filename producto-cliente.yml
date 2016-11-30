@@ -1,11 +1,11 @@
 server:
    port: 9999
 
-#spring:
-#   cloud:
-#      stream:
-#         bindings:
-#            output: productoes
+spring:
+   cloud:
+      stream:
+         bindings:
+            output: loquesea
 
 eureka:
    client:
