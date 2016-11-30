@@ -14,4 +14,4 @@ spring:
    cloud:
       stream:
          bindings:
-            input: loquesea
+            input: productoes

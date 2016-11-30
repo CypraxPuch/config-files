@@ -5,7 +5,7 @@ spring:
    cloud:
       stream:
          bindings:
-            output: loquesea
+            output: productoes
 
 eureka:
    client:
