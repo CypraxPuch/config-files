@@ -4,5 +4,5 @@ eureka:
       fetchRegistry: false
 
 server:
-   port: 1111
+   port: 8761
 
