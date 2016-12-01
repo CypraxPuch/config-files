@@ -1,13 +1,6 @@
 server:
    port: 9999
 
-spring:
-   cloud:
-      stream:
-         bindings:
-            output: 
-               destination: productoes
-
 eureka:
    client:
       serviceUrl:
@@ -15,5 +8,3 @@ eureka:
    instance:
       preferIpAddress: true
 
-#zuul:
-#   servletPath: ${spring.application.name}
