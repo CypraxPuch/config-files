@@ -5,7 +5,8 @@ spring:
    cloud:
       stream:
          bindings:
-            output: productoes
+            output: 
+               destination: productoes
 
 eureka:
    client:
