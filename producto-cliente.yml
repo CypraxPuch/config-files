@@ -11,5 +11,7 @@ spring:
    cloud:
       stream:
          bindings:
-            output: "productos"
+            output:
+               destination: productos
+               contentType: text/plain
 
